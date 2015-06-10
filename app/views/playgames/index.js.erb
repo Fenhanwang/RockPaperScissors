@@ -1,0 +1,10 @@
+var result =  gon.result;
+<% if @tie =="nottie" %>
+	<% if @flag == 1 %>
+	alert("You Win!!! Mine is "+result);
+	<% else %>
+	alert("I beat You!!! Mine is "+result);
+	<% end %>
+<% else %>
+alert("I don't like! Let's play again. It is tie");
+<% end %>

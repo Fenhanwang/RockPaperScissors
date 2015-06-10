@@ -1,0 +1,8 @@
+<%= form_tag('/throw', remote: true) do %>
+	<h1>I want to play Rock Paper Scissor with you!</h1>
+	<h3>Just choose what you want to show to my computer</h3><br/><br/>
+	<%= radio_button_tag 'sign', 'rock' %><span>Rock</span><br/><br/>
+	<%= radio_button_tag 'sign', 'scissors' %><span>Scissors</span><br/><br/>
+	<%= radio_button_tag 'sign', 'paper' %><span>Paper</span><br/><br/>
+	<%= button_tag "Let's play!" %>
+<% end %>
